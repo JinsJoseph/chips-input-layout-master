@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chips_opened_bg">#009688</color>
+    <color name="colorAccent">?attr/colorAccent</color>
+    <color name="colorChipViewBackground">#E0E0E0</color>
+    <color name="colorCloseChip">#ababab</color>
+    <color name="white_transparency">#b9ffffff</color>
+    <declare-styleable name="ChipsInputLayout"><attr name="android:hint"/><attr name="android:textColorHint"/><attr name="android:textColor"/><attr format="boolean" name="detailedChipsEnabled"/><attr format="boolean" name="customChipsEnabled"/><attr format="integer" name="maxRows"/><attr format="color" name="chipTextColor"/><attr format="boolean" name="chipHasAvatarIcon"/><attr format="boolean" name="chipDeletable"/><attr format="reference" name="chipDeleteIcon"/><attr format="color" name="chipDeleteIconColor"/><attr format="color" name="chipBackgroundColor"/><attr format="color" name="detailedChipTextColor"/><attr format="color" name="detailedChipBackgroundColor"/><attr format="color" name="detailedChipDeleteIconColor"/><attr format="color" name="filterableListBackgroundColor"/><attr format="color" name="filterableListTextColor"/><attr format="dimension" name="filterableListElevation"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="borderWidth"/><attr format="color" name="borderColor"/><attr format="color" name="fillColor"/><attr format="boolean" name="borderOverlay"/></declare-styleable>
+    <declare-styleable name="MaxHeightScrollView"><attr name="android:maxHeight"/></declare-styleable>
+    <dimen name="default_letter_tile_size">64dp</dimen>
+    <string name="app_name">Chips Library</string>
+</resources>
